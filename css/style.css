@@ -55,3 +55,37 @@ a {
 .txt-icone {
     font-size: 200%;
 }
+
+@media (min-width: 350px) and (max-width: 450px) {
+
+    header {
+    background-color: #370707;
+    color: #F5F5F5;
+    padding: 1em;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+    .img_perfil {
+    width: 20% !important;
+    border-radius: 50% !important;
+
+}
+
+    .img-incone {
+    width: 100% !important;
+
+}
+
+    .txt-icone {
+    font-size: 100%;
+    margin-left: 3rem;
+}
+
+    .row {
+    align-items: center;
+}
+
+}
