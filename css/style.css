@@ -56,7 +56,7 @@ a {
     font-size: 200%;
 }
 
-@media (min-width: 350px) and (max-width: 450px) {
+@media (min-width: 350px) and (max-width: 768px) {
 
     header {
     background-color: #370707;
